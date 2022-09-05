@@ -5,7 +5,7 @@ import Discount from './components/Discount';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
        <Promo/>
        <Header/>
        <Discount/>
