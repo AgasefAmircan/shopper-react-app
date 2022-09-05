@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin-right: 14.6%;
+    margin-left: 13%;
+    ul{
+      justify-content: center;
+      align-items: center;
+      li{
+        padding-right: 32px;
+      }
+    }
+    .icons{
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        // padding: 8px 16px;
+    }
+}
+
+
+@media screen  and (max-width: 1300px){
+  .navLinks{
+    display: none;
+  }
+  .icons{
+    display: none;
+  }
+  .closes{
+    display: block;
+  }
+}
+    
