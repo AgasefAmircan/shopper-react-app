@@ -13,23 +13,21 @@ const Header = () => {
   const [nav, setNav] = useState(false);
   return (
     <div className="header md:block">
-      <header className="flex justify-between pt-6 pb-6">
+      <Header className="flex justify-between pt-6 pb-6">
         <div className="logo">
           <a href="/home" className="text-3xl">
             SHOPPER
           </a>
         </div>
-        <button className="hidden closes">
-          <FaBars />
+        <button className="hidden closes" onClick={()=> setNav(!nav)}>
+          {nav ? <FaBars /> : <FaTimes/>}
         </button>
-        <button className="hidden open">
-          <FaTimes />
-        </button>
-        <ul className="navLinks flex">
+
+        <ul className={`navLinks flex ${nav ? "block,pt-2,pb-3,ml-10" : "hidden"}`}>
           <a href="/home">
             <li>Home</li>
           </a>
-          <a href="javascript:void(0)">
+          <a href="/product">
             <li>Catalog</li>
           </a>
           <a href="/shop">
@@ -51,7 +49,7 @@ const Header = () => {
           <FaHeart className="" />
           <FaShoppingCart className="" />
         </div>
-      </header>
+      </Header>
     </div>
   );
 };
