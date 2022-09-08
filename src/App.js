@@ -2,7 +2,6 @@ import './App.css';
 import Promo from './components/Promo';
 import Header from './components/Header';
 import Discount from './components/Discount';
-import NavBar from './components/Navbar';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
        <Promo/>
        <Header/>
        <Discount/>
-       <NavBar/>
     </div>
   );
 }
