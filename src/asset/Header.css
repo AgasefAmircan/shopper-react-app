@@ -23,14 +23,40 @@ body {
   gap: 16px;
 }
 
+.closes {
+  margin-left: 70%;
+}
+
 @media screen and (max-width: 1300px) {
   .navLinks {
-    display: block;
+    margin-top: 60px;
+    margin-left: -128px;
+    margin-right: -89px;
+    padding-left: 0;
+  }
+  .navLinks li {
+    padding-bottom: 20px;
+    text-align: start;
   }
   .icons {
-    display: block;
+    margin-top: 340px;
+    margin-right: 820px;
+    color: #1d0707;
   }
   .closes {
-    display: block;
+    display: flex;
+    width: 34px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .navLinks {
+    display: flex;
+  }
+  .icons {
+    display: flex;
   }
 }

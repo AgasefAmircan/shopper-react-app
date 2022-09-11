@@ -8,8 +8,19 @@ a {
     color: #1f1f1f;
     font-weight: 500;
   }
+  .chev{
+    display: block !important;
+    padding: 0 !important;
+  }
+  .chevdown , .currency ,.language{
+    display:block !important;
+    padding: 0 !important;
+  }
+  .currency p, .language p{
+    text-align: start;
+    margin: 0 !important;
+  }
 .promo {
-    display: flex;
     justify-content: space-between;
     background-color: whitesmoke;
     padding-top: .75rem;
@@ -61,6 +72,14 @@ a {
     color: #767676;
     gap: 10px;
   }
+  /* .currency p:hover , .chevdown p:hover, .language p:hover{
+    cursor: pointer;
+    background-color: #e5e5e5;
+   } */
+   :is(.currency, .chevdown, .language) p:hover{
+    cursor: pointer;
+    background-color: #e5e5e5;
+   }
   @media  screen and (max-width:1400px) {
     .bg{
       background-color: #f5f5f5;
@@ -75,13 +94,78 @@ a {
       .truck{
        display: flex;
       }
-    .close{
-      display: none;
+    #truck{
+       display: none;
     }
+    .promo{
+      padding-right: 13%;
+      padding-left: 13%;
+      /* display: block; */
+    }
+    .promo .sec-1{
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start ;
+      align-items: flex-start;
+      margin: 0;
+    }
+    .promo .sec-1 span{
+      padding: 8px 0;
+    }
+    .promo .sec-2{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .promo .sec-2-1 a{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 0;
+    }
+    .promo .sec-2-2{
+      padding: 8px 0;
+    }
+    .chev{
+      padding: 0 !important;
+    }
+    .curr, .lang{
+      display: block !important;
+      padding: 0 !important;
+    }
+    .curr .currency ,.language{
+      margin-left: 15px;
+    }
+    
   }
   @media screen and  (min-width:1400px){
     .responsive{
       display: none;
     }
-  }
-  
+    .promo{
+      display: flex;
+    }
+    .chevdown{
+      position: absolute;
+      background-color: #fff;
+      margin-top: 13px;
+     }
+     .chevdown p{
+         border-top: 1px solid #e5e5e5;
+         padding: 8px;
+     }
+     .currency, .language{
+      position: absolute;
+      background-color: #fff;
+      margin-top: 109px ;
+     }
+     .currency p, .language p{
+      border-top: 1px solid #e5e5e5;
+      padding: 5px 20px;
+      font-size: 16px;
+     }
+     .language{
+      margin-top: 139px;
+     }
+
+    }
