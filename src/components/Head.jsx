@@ -41,11 +41,11 @@ const Head = () => {
       <div className="mobile flex justify-between pt-6 pb-6" >
         <div className="logo">
           <a href="/home" className="text-3xl">
-            SHOPPER
+            Shopper
           </a>
         </div>
 
-        <button className="hidden closes fixed " onClick={() => setNav(!nav)}>
+        <button className="hidden closes absolute " onClick={() => setNav(!nav)}>
           {!nav ? <FaTimes /> : <FaBars />}
         </button>
           <ul className={`navLinks ${!nav ? "block" &&"transition-all ease-in duration-1000 opacity-1000" : "hidden"}`}>
