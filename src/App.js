@@ -18,7 +18,7 @@ function App() {
        <Offer/>
        {/* <Countdown/> */}
        {/* <CountDownTimer/> */}
-    </div>
+    </div> 
   );
 }
 
