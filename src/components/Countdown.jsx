@@ -41,9 +41,9 @@ const Countdown = () => {
   //   }
   // }
   return (
-    <div className="countdown">
-      <img src={countdown} alt="" className="absolute" />
-      <div className="content absolute ml-[50%] mt-[10%] w-96">
+    <div className="countdown mt-32">
+      <img src={countdown} alt="" className="" />
+      <div className="absolute ml-[50%] mt-[-29%] w-96">
         <h3 className="text-3xl font-sans mb-7 font-medium text-start">
           Get -50% from <br />
           Summer Collection

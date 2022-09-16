@@ -1,9 +1,9 @@
 import React from "react";
-import truck from "../asset/images/truck.svg";
-import usa from "../asset/images/usa.svg";
-import canada from "../asset/images/canada.svg";
-import germany from "../asset/images/germany.svg";
-import "../asset/Promo.css";
+import truck from '../../asset/images/truck.svg'
+import usa from '../../asset/images/usa.svg';
+import canada from  '../../asset/images/germany.svg';
+import germany from '../../asset/images/germany.svg'
+import './Promo.css'
 import { useState } from "react";
 import {
   FaFacebook,
@@ -14,6 +14,7 @@ import {
   FaChevronUp,
   FaBars,
   FaTimes,
+  // FaTruck,
 } from "react-icons/fa";
 const Promo = () => {
   const [nav, setNav] = useState(true);

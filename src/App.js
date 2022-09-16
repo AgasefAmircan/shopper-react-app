@@ -1,11 +1,13 @@
 import './App.css';
-import Promo from './components/Promo';
-import Head from './components/Head';
+import Promo from './components/Promo/Promo'
+import Head from './components/Header/Head';
 import Discount from './components/Discount';
 import CardSlider from './components/CardSlider';
 import Info from './components/Info';
 import Offer from './components/Offer';
-// import Countdown from './components/Countdown';
+import TopSellers from './components/Sellers/TopSellers';
+import Countdown from './components/Countdown';
+import Feedback from './components/Feedback'
 // import CountDownTimer from './components/CountDownTimer';
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
        <CardSlider/>
        <Info/>
        <Offer/>
-       {/* <Countdown/> */}
+       <TopSellers/>
+       <Countdown/>
+       <Feedback/>
        {/* <CountDownTimer/> */}
     </div> 
   );
