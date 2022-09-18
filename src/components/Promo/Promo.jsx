@@ -123,9 +123,9 @@ const Promo = () => {
         </div>
         <div className="sec-2 ">
           <div className="sec-2-1">
-            <a href="/shipping">Shipping</a>
-            <a href="/fag"> FAG</a>
-            <a href="/contact"> Contact</a>
+            <a href="/shipping" className="text-black">Shipping</a>
+            <a href="/fag" className="text-black"> FAG</a>
+            <a href="/contact" className="text-black"> Contact</a>
           </div>
           <div className="sec-2-2 ">
             <FaFacebook />

@@ -8,7 +8,8 @@ import Offer from './components/Offer';
 import TopSellers from './components/Sellers/TopSellers';
 import Countdown from './components/Countdown';
 // import CountDownTimer from './components/CountDownTimer';
-// import Feedback from './components/Feedback/Feedback';
+import Feedback from './components/Feedback/Feedback';
+import Company from './components/Company';
 import Footer from './components/Footer/Footer';
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
        <TopSellers/>
        <Countdown/>
        {/* <CountDownTimer/> */}
-       {/* <Feedback/> */}
+       <Feedback/>
+       <Company/>
        <Footer/>
     </div> 
   );

@@ -11,8 +11,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: 13%;
-	margin-right: 13%;
 	margin-top: 20px;
 	margin: 20px 13% 20px 13%;
   }
@@ -39,6 +37,9 @@
 	display: flex;
 	flex-grow : 1;
   }
+  .container{
+    margin: 0 auto;
+  }
   .content {
 	background: white;
 	padding-top: 20px;
@@ -58,11 +59,13 @@
     display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 20px;
-	width: 75%;
-	margin-left: 13%;
+  margin-right: 13%;
+  margin-left: 13%;
     .item{
         display: block;
+        width: 253px;
+        margin-bottom: 40px;
+        border: 1px solid #f3efef;
         img{
             width: 253px;
             height: 300px;

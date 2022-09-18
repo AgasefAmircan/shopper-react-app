@@ -13,9 +13,9 @@ const CardSlider = () => {
         <a href="/shop" className="cursor-pointer">
         <div className="famale">
           <img src={famale} alt="" />
-          <p className="-mt-60  mb-28 font-semibold text-5xl  flex justify-center text-center items-center" style={{'color':'white'}}>Women</p>
+          <p className="-mt-60  mb-28 font-semibold text-5xl  flex justify-center text-center items-center text-white" >Women</p>
           <div className="shop  bg-white justify-center items-center text-center flex ">
-          <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4">Shop Woman 
+          <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4 text-black hover:text-white hover:bg-transparent border">Shop Woman 
           <FaArrowRight/></a>
           </div>
         </div>
@@ -23,9 +23,9 @@ const CardSlider = () => {
         <a href="/shop" className="cursor-pointer">
         <div className="male">
           <img src={male} alt="" />
-          <p className="-mt-60  mb-28 font-semibold text-5xl " style={{'color':'white'}}>Men</p>
+          <p className="-mt-60  mb-28 font-semibold text-5xl text-white flex justify-center text-center items-center" >Men</p>
           <div className="shop  bg-white justify-center items-center text-center flex ">
-          <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4">Shop Woman 
+          <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4 text-black hover:text-white hover:bg-transparent border">Shop Men 
           <FaArrowRight/></a>
           </div>
         </div>
@@ -33,9 +33,9 @@ const CardSlider = () => {
         <a href="/shop" className="cursor-pointer">
         <div className="child">
           <img src={child} alt="" />
-          <p className="-mt-60 mb-28 font-semibold text-5xl" style={{'color':'white'}}>Kids</p>
+          <p className="-mt-60 mb-28 font-semibold text-5xl text-white flex justify-center text-center items-center" >Kids</p>
           <div className="shop  bg-white justify-center items-center text-center flex ">
-          <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4">Shop Woman 
+          <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4 text-black hover:text-white hover:bg-transparent border">Shop Kids 
           <FaArrowRight/></a>
           </div>
         </div>

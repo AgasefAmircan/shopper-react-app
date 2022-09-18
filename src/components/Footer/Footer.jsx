@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className=" mr-[31.5%]  ml-[31.5%] h-14 flex">
                 <input type="email" placeholder="Enter Email  *" className="w-[75%] flex justify-items-start h-full px-7 py-3" style={{'background':'#303030'}} />
-                <button type="submit" className="btn bg-gray-500 text-white" style={{"margin-left":'15px','padding': '15px 35px;','background':'#525252'}}>Subscribe</button>
+                <button type="submit" className="btn bg-gray-500 text-white" style={{"marginLeft":'15px','background':'#525252'}}>Subscribe</button>
             </div>
         </div>
         <div className="flex  py-16 justify-between  mr-[13%] ml-[13%]">

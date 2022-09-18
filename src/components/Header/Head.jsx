@@ -40,7 +40,7 @@ const Head = () => {
       </Modal>
       <div className="mobile flex justify-between pt-6 pb-6" >
         <div className="logo">
-          <a href="/home" className="text-3xl">
+          <a href="/home" className="text-3xl text-black">
             Shopper
           </a>
         </div>
@@ -50,29 +50,29 @@ const Head = () => {
         </button>
           <ul className={`navLinks ${!nav ? "block" &&"transition-all ease-in duration-1000 opacity-1000" : "hidden"}`}>
             <a href="/home">
-              <li>Home</li>
+              <li className="text-black">Home</li>
             </a>
             <a href="/product">
-              <li>Catalog</li>
+              <li className="text-black">Catalog</li>
             </a>
             <a href="/shop">
-              <li>Shops</li>
+              <li className="text-black">Shops</li>
             </a>
             <a href="/about"> 
-              <li>About</li>
+              <li className="text-black">About</li>
             </a>
             <a href="contact">
-              <li>Contact</li>
+              <li className="text-black">Contact</li>
             </a>
             <a href="/faq">
-              <li>FAQ</li>
+              <li className="text-black">FAQ</li>
             </a>
           </ul>
           <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
-            <FaSearch className="" />
-            <FaUser className="" />
-            <FaHeart className="" />
-            <FaShoppingCart className="" onClick={handleShow}/>
+            <FaSearch className=" text-gray-700 rounded border-spacing-4"/>
+            <FaUser className="text-gray-700" />
+            <FaHeart className="text-gray-700" />
+            <FaShoppingCart className="text-gray-700" onClick={handleShow}/>
           </div>
         </div>
       </div>
@@ -80,61 +80,3 @@ const Head = () => {
 };
 
 export default Head;
-
-// import React from "react";
-// // import { useState } from "react";
-// import {
-//   FaHeart,
-//   FaSearch,
-//   FaUser,
-//   FaShoppingCart,
-// //   FaBars,
-// //   FaTimes,
-// } from "react-icons/fa";
-// import "../asset/Header.css";
-// const Header = () => {
-// //   const [nav, setNav] = useState(false);
-//   return (
-//     <div className="header md:block">
-//       <Header className="flex justify-between pt-6 pb-6">
-//         <div className="logo">
-//           <a href="/home" className="text-3xl">
-//             SHOPPER
-//           </a>
-//         </div>
-//         <button className="hidden closes">
-
-//         </button>
-
-//         <ul className='navLinks flex '>
-//           <a href="/home">
-//             <li>Home</li>
-//           </a>
-//           <a href="/product">
-//             <li>Catalog</li>
-//           </a>
-//           <a href="/shop">
-//             <li>Shop</li>
-//           </a>
-//           <a href="/about">
-//             <li>About</li>
-//           </a>
-//           <a href="contactUs">
-//             <li>Contact Us</li>
-//           </a>
-//           <a href="/faq">
-//             <li>FAQ</li>
-//           </a>
-//         </ul>
-//         <div className="icons flex">
-//           <FaSearch className="" />
-//           <FaUser className="" />
-//           <FaHeart className="" />
-//           <FaShoppingCart className="" />
-//         </div>
-//       </Header>
-//     </div>
-//   );
-// };
-
-// export default Header;
