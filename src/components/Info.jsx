@@ -7,7 +7,7 @@ import {
   } from "react-icons/fa";
 const Info = () => {
   return (
-    <div className="info pt-20">
+    <div className="info pt-7">
       <div className="info-sub pb-7 border-b flex justify-between flex-wrap gap-8 mr-[12%] ml-[12%]">
         <div className="main info1   w-64 h-14">
           <FaTruck  style={{"color":"orange"}}/>

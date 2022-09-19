@@ -38,7 +38,7 @@ const Head = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-      <div className="mobile flex justify-between pt-6 pb-6" >
+      <div className=" flex justify-between pt-6 pb-6" >
         <div className="logo">
           <a href="/home" className="text-3xl text-black">
             Shopper
