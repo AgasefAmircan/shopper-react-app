@@ -21,14 +21,14 @@ const CardSlider = () => {
         // }}
         navigation={true}
         // modules={[Pagination]}
-        className="yourSwiper " style={{'height':'480px'}} >
+        className="yourswiper " style={{'height':'480px'}} >
       <div className="comments  flex justify-between flex-wrap">
        <SwiperSlide>
         <a href="/shop" className="cursor-pointer">
         <div className="famale">
           <img src={famale} alt="" />
           <p className="-mt-60  mb-28 font-semibold text-5xl  flex justify-center text-center items-center text-white" >Women</p>
-          <div className="shop  bg-white justify-center items-center text-center flex ">
+          <div className="shop bg-white justify-center items-center text-center flex ">
           <a href="/shop" className="pt-2 pb-2 pl-4 pr-4 bg-white flex justify-center items-center gap-4 text-black hover:text-white hover:bg-transparent border">Shop Woman 
           <FaArrowRight/></a>
           </div>
