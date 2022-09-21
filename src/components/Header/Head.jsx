@@ -1,7 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import {BrowserRouter as Router,Link, Route,} from "react-router-dom";
+import Product from "../Products/Product";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import '../Header/Header.css'
 import {
   FaHeart,
@@ -10,17 +12,18 @@ import {
   FaShoppingCart,
   FaBars,
   FaTimes,
+  // FaLinkedin,
 } from "react-icons/fa";
 
 const Head = () => {
   const [nav, setNav] = useState(true);
-  const [show,setShow]=useState(false);
 
-  const handleShow=()=> setShow(true)
-  const handleClose=()=> setShow(false)
+  // const [show,setShow]=useState(false);
+  // const handleShow=()=> setShow(true)
+  // const handleClose=()=> setShow(false)
   return (
     <div className="header">
-      <Modal show={show} onHide={handleClose} className="w-96 block ml-[75%] "  >
+      {/* <Modal show={show} onHide={handleClose} className="-mt-[400%] block absolute mt-2 ml-[75%] "  >
         <div className="modal">
           <div className="">Your Cart(2)
           <Button onClick={handleClose}>
@@ -37,7 +40,7 @@ const Head = () => {
             View Cart
           </Button>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
       <div className=" flex justify-between pt-6 pb-6" >
         <div className="logo">
           <a href="/home" className="text-3xl text-black">
@@ -55,9 +58,11 @@ const Head = () => {
             <a href="/product">
               <li className="text-black">Catalog</li>
             </a>
-            <a href="/shop">
-              <li className="text-black">Shops</li>
+            <Link to="/product"><a>
+              <li className="text-black">
+                Shops </li> 
             </a>
+            </Link>
             <a href="/about"> 
               <li className="text-black">About</li>
             </a>
@@ -69,10 +74,11 @@ const Head = () => {
             </a>
           </ul>
           <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
+            <FontAwesomeIcon icon={faLinkedin}/>
             <FaSearch className=" text-gray-700 rounded border-spacing-4"/>
             <FaUser className="text-gray-700" />
             <FaHeart className="text-gray-700" />
-            <FaShoppingCart className="text-gray-700" onClick={handleShow}/>
+            <FaShoppingCart className="text-gray-700"/>
           </div>
         </div>
       </div>
