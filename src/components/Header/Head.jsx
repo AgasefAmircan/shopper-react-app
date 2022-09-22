@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import {BrowserRouter as Router,Link, Route,} from "react-router-dom";
-import product from "../Products/Product";
+import {Link} from "react-router-dom";
+// import product from "../Products/Product";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import '../Header/Header.css'
@@ -58,11 +58,10 @@ const Head = () => {
             <a href="/product">
               <li className="text-black">Catalog</li>
             </a>
-            <Link to='/product'><a>
+           <a href="/product">
               <li className="text-black">
                 Shops </li> 
             </a>
-            </Link>
             <a href="/about"> 
               <li className="text-black">About</li>
             </a>
