@@ -1,4 +1,3 @@
-import "./App.css";
 // import Promo from "./components/Promo/Promo";
 // import Head from "./components/Header/Head";
 // import Discount from "./components/Discount";
@@ -14,6 +13,7 @@ import "./App.css";
 // import Footer from "./components/Footer/Footer";
 import Home from '../src/pages/Home/Home'
 import About from "./pages/About/About";
+import Categories from './pages/Category/Categories';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <Route path="/home" element={<Home/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/category" element={<Categories/>}/>
         </Routes>
       </Router>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 // import product from "../Products/Product";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -55,7 +55,7 @@ const Head = () => {
             <a href="/home">
               <li className="text-black">Home</li>
             </a>
-            <a href="/product">
+            <a href="/category">
               <li className="text-black">Catalog</li>
             </a>
            <a href="/product">
