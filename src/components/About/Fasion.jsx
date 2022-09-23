@@ -2,7 +2,7 @@ import React from 'react'
 import '../../pages/About/About.css'
 const fasion = () => {
   return (
-    <div className="fashion-main">
+    <div className="fashion-main " style={{background:'#f5f5f5'}}>
       <div className="container">
         <div className="fashion">
           <div className="fashion-title">
