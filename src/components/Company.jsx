@@ -4,7 +4,7 @@ const Company = () => {
   return (
     <div className="bg-gray-100 py-24">
       <div className="header mr-[13%] ml-[13%]">
-        <h1 className="font-medium text-4xl mb-3">Shopper</h1>
+        <h1 className="font-medium text-4xl mb-3 flex justify-center">Shopper</h1>
         <p className="mb-10 text-gray-500 text-center">
           Appear, dry there darkness they're seas, dry waters.
         </p>
@@ -41,14 +41,14 @@ const Company = () => {
           alt=""
         />
       </div>
-      <div className="mt-6 images flex flex-wrap mr-[13%] ml-[13%] justify-between">
-        <img className="w-32 h-6" src="	https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/mango.svg" alt="" />
-        <img className="w-32 h-6" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/zara.svg" alt="" />
-        <img className="w-32 h-6" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/reebok.svg" alt="" />
-        <img className="w-32 h-6" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/asos.svg" alt="" />
-        <img className="w-32 h-6" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/stradivarius.svg" alt="" />
-        <img className="w-32 h-6" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/adidas.svg" alt="" />
-        <img className="w-32 h-6" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/bershka.svg" alt="" />
+      <div className="mt-6 images flex flex-wrap mr-[13%] ml-[13%] justify-between flex-wrap">
+        <img className="w-24 h-7 object-fill" src="	https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/mango.svg" alt="" />
+        <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/zara.svg" alt="" />
+        <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/reebok.svg" alt="" />
+        <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/asos.svg" alt="" />
+        <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/stradivarius.svg" alt="" />
+        <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/adidas.svg" alt="" />
+        <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/bershka.svg" alt="" />
       </div>
     </div>
   );

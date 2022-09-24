@@ -1173,7 +1173,6 @@
   .form-select {
 	appearance: none;
 	background-color: #fff;
-	/* background-image: url('url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%232b2b2b' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E")'); */
 	background-repeat: no-repeat;
 	background-size: 16px 12px;
 	border: 1px solid #e5e5e5;
@@ -1286,7 +1285,7 @@
 	transition: all .1s ease-in-out;
 	transition-property: color;
 	text-decoration: none;
-	color: #ff6f61;
+	/* color: #ff6f61; */
   }
   
   .card-img-hover .card-img-back {

@@ -11,7 +11,7 @@ const Feedback = () => {
       <div className="header flex flex-col justify-center items-center">
         <p className="text-gray-400 mb-3">WHAT BUYERS SAY</p>
       </div>
-      <h4 className="mb-10 text-4xl font-medium">Latest buyers Reviews</h4>
+      <h4 className="mb-10 text-4xl font-medium flex justify-center">Latest buyers Reviews</h4>
       <Swiper  slidesPerView={3}
         spaceBetween={30}
         slidesPerGroup={1}
@@ -55,7 +55,7 @@ const Feedback = () => {
               itself also above second doesn't unto created saying land herb sea
               midst night wherein.
             </p>
-            <p className="text-gray-500 mt-5 text-start">
+            <p className="text-gray-500 mt-4 text-start">
               <a href="linkedin.com/in/agasefamircan">
                 <b> Agasef Amircan</b>
               </a>{" "}
@@ -94,7 +94,7 @@ const Feedback = () => {
               itself also above second doesn't unto created saying land herb sea
               midst night wherein.
             </p>
-            <p className="text-gray-500 mt-5 text-start">
+            <p className="text-gray-500 mt-4 text-start">
               <a href="linkedin.com/in/agasefamircan">
                 <b> Agasef Amircan</b>
               </a>{" "}
@@ -134,7 +134,47 @@ const Feedback = () => {
               itself also above second doesn't unto created saying land herb sea
               midst night wherein.
             </p>
-            <p className="text-gray-500 mt-5 text-start">
+            <p className="text-gray-500 mt-4 text-start">
+              <a href="linkedin.com/in/agasefamircan">
+                <b> Agasef Amircan</b>
+              </a>{" "}
+              , 09 sep 2022
+            </p>
+          </div>
+        </div>
+    </SwiperSlide>
+      <SwiperSlide>  <div className="cursor-grab comment-3 p-8 w-80 h-80 border">
+          <a href="/product">
+            {" "}
+            <div className="head flex">
+              <img
+                src="	https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-18.jpg"
+                style={{ width: "70px", height: "70px" }}
+                className="text-start flex justify-start items-start"
+                alt=""
+              />
+              <div className="flex flex-col ml-6">
+                <h6 className="text-gray-500 text-start">Shoes</h6>
+                <h5 className="font-medium text-lg -mt-1 text-black">
+                  Low top Sneakers
+                </h5>
+                <div className="rate flex text-orange-400 -mt-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                </div>
+              </div>
+            </div>
+          </a>
+          <div className="info mt-8 text-gray-500  text-start">
+            <p>
+              From creepeth said moved given divide make multiply of him shall
+              itself also above second doesn't unto created saying land herb sea
+              midst night wherein.
+            </p>
+            <p className="text-gray-500 mt-4 text-start">
               <a href="linkedin.com/in/agasefamircan">
                 <b> Agasef Amircan</b>
               </a>{" "}

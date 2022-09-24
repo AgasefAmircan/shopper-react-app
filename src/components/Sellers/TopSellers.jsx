@@ -42,7 +42,7 @@ const TopSellers = () => {
           <div className="items">
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -53,7 +53,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -64,7 +64,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -75,7 +75,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -86,7 +86,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -97,7 +97,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -108,7 +108,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -119,7 +119,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -130,7 +130,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Women} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -146,7 +146,7 @@ const TopSellers = () => {
         <div className="items">
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -157,7 +157,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -168,7 +168,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -179,7 +179,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -190,7 +190,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -201,7 +201,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -212,7 +212,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -223,7 +223,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Men} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -239,7 +239,7 @@ const TopSellers = () => {
         <div className="items">
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -250,7 +250,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -261,7 +261,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -272,7 +272,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -283,7 +283,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -294,7 +294,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -305,7 +305,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
@@ -316,7 +316,7 @@ const TopSellers = () => {
             </div>
             <div className="item item-1">
               <img src={Child} alt="" />
-              <span className="badge">New</span>
+              <span className="badgeintop">New</span>
               <div className="item-info">
                 <a href="#shoes"> Shoes</a>
                 <b>
