@@ -14,6 +14,7 @@
 import Home from '../src/pages/Home/Home'
 import About from "./pages/About/About";
 import Categories from './pages/Category/Categories';
+import Error from './pages/Error/Error';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/category" element={<Categories/>}/>
+          <Route path="*" element={<Error/>}/>
         </Routes>
       </Router>
     </div>

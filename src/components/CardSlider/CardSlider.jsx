@@ -9,7 +9,7 @@ import child from "../../asset/images/child.jpg";
 import { FaArrowRight } from "react-icons/fa";
 const CardSlider = () => {
   return (
-    <div className="card mt-5">
+    <div className="card">
       <div className="category flex desktop ">
         <Swiper  slidesPerView={3}
         spaceBetween={5}
