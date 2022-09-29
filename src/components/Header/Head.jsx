@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 // import {Link} from "react-router-dom";
 // import product from "../Products/Product";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import '../Header/Header.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import "../Header/Header.css";
 import {
   FaHeart,
   FaSearch,
@@ -17,7 +17,6 @@ import {
 
 const Head = () => {
   const [nav, setNav] = useState(true);
-
   // const [show,setShow]=useState(false);
   // const handleShow=()=> setShow(true)
   // const handleClose=()=> setShow(false)
@@ -41,46 +40,54 @@ const Head = () => {
           </Button>
         </Modal.Footer>
       </Modal> */}
-      <div className=" flex justify-between pt-6 pb-6" >
+      <div className=" flex justify-between pt-6 pb-6">
         <div className="logo">
           <a href="/home" className="text-3xl text-black">
             Shopper
           </a>
         </div>
 
-        <button className="hidden closes absolute " onClick={() => setNav(!nav)}>
+        <button
+          className="hidden closes absolute "
+          onClick={() => setNav(!nav)}
+        >
           {!nav ? <FaTimes /> : <FaBars />}
         </button>
-          <ul className={`navLinks ${!nav ? "block" &&"transition-all ease-in duration-1000 opacity-1000" : "hidden"}`}>
-            <a href="/home">
-              <li className="text-black">Home</li>
-            </a>
-            <a href="/category">
-              <li className="text-black">Catalog</li>
-            </a>
-           <a href="/product">
-              <li className="text-black">
-                Shops </li> 
-            </a>
-            <a href="/about"> 
-              <li className="text-black">About</li>
-            </a>
-            <a href="contact">
-              <li className="text-black">Contact</li>
-            </a>
-            <a href="/faq">
-              <li className="text-black">FAQ</li>
-            </a>
-          </ul>
-          <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
-            <FontAwesomeIcon icon={faLinkedin}/>
-            <FaSearch className=" text-gray-700 rounded border-spacing-4"/>
-            <FaUser className="text-gray-700" />
-            <FaHeart className="text-gray-700" />
-            <FaShoppingCart className="text-gray-700"/>
-          </div>
+        <ul
+          className={`navLinks ${
+            !nav
+              ? "block" && "transition-all ease-in duration-1000 opacity-1000"
+              : "hidden"
+          }`}
+        >
+          <a href="/home">
+            <li className="text-black">Home</li>
+          </a>
+          <a href="/category">
+            <li className="text-black">Catalog</li>
+          </a>
+          <a href="/product">
+            <li className="text-black">Shops </li>
+          </a>
+          <a href="/about">
+            <li className="text-black">About</li>
+          </a>
+          <a href="contact">
+            <li className="text-black">Contact</li>
+          </a>
+          <a href="/faq">
+            <li className="text-black">FAQ</li>
+          </a>
+        </ul>
+        <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
+         <FontAwesomeIcon icon={faLinkedin}  />
+          <FaSearch className=" text-gray-700 rounded border-spacing-4" />
+         <a href="/account"> <FaUser className="text-gray-700"  path="/account"/></a>
+         <a href="/account"><FaHeart className="text-gray-700"  path="/account"/> </a>
+          <FaShoppingCart className="text-gray-700" style={{ stroke: "black", 'strokeWidth': "1",background:'#fff'}}  />
         </div>
       </div>
+    </div>
   );
 };
 

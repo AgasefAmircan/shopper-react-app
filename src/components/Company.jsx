@@ -41,7 +41,7 @@ const Company = () => {
           alt=""
         />
       </div>
-      <div className="mt-6 images flex flex-wrap mr-[13%] ml-[13%] justify-between flex-wrap">
+      <div className="mt-6 gap-3 images flex  mr-[13%] ml-[13%] justify-between flex-wrap">
         <img className="w-24 h-7 object-fill" src="	https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/mango.svg" alt="" />
         <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/zara.svg" alt="" />
         <img className="w-24 h-7 object-fill" src="https://yevgenysim-turkey.github.io/shopper/assets/img/brands/gray-350/reebok.svg" alt="" />
