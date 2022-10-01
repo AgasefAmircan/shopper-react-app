@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import "./TopSellers.css";
-import Women from "../../asset/images/famale.jpg";
+// import Women from "../../asset/images/famale.jpg";
 import Men from "../../asset/images/male.jpg";
 import Child from "../../asset/images/child.jpg";
 const TopSellers = () => {
@@ -10,13 +10,12 @@ const TopSellers = () => {
   const toggleTab = (index) => {
     setToggle(index);
   };
-
   const [data, setData] = useState([]);
   const getPorduct = () => {
-    fetch("https://fakestoreapi.com/products")
+    fetch('https://fakestoreapi.com/products')
       .then((res) => res.json())
       .then((json) => {
-      console.log(json);
+      // console.log(json);
       setData(json);
     })
   };
@@ -59,15 +58,15 @@ const TopSellers = () => {
         >
           <div className="items">
             {data.map((product) => (
-              <div className="item item-1" id={product.id}>
-                <img src={product.image} alt="" />
+              <div className="item item-1 hover:bg-slate-200" id={product.id}>
+               <a href="/item"> <img src={product.image} className="hover:scale-y-90 hover:scale-x-90 transition-all ease-in duration-300" alt="" /> </a>
                 <span className="badgeintop">New</span>
                 <div className="item-info">
-                  <a href="#shoes">{product.category}</a>
+                  <a href={`/item`} className="hover:bg-slate-300">{product.category}</a>
                   <b>
-                    <h5 className="fw-bold">{product.title}</h5>
+                  <a href="/item"> <h5 className="fw-bold hover:bg-slate-400 ">{product.title}</h5> </a>
                   </b>
-                  <span className="price">{product.price} $</span>
+                  <span className="price hover:bg-slate-300 cursor-pointer">{product.price} $</span>
                 </div>
               </div>
             ))}

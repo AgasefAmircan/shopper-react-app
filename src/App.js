@@ -14,6 +14,7 @@
 import Home from '../src/pages/Home/Home'
 import About from "./pages/About/About";
 import Categories from './pages/Category/Categories';
+import Product from './pages/Product/Product';
 import Error from './pages/Error/Error';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/home" element={<Home/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/item" element={<Product/>}/>
           <Route path="/category" element={<Categories/>}/>
           <Route path="*" element={<Error/>}/>
         </Routes>
