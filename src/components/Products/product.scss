@@ -25,42 +25,42 @@ header i{
     padding-left: 10px;
 }
 }
-.promo{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(245,245,245);
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    .sec-1{
-        margin-left: 13%;
-        display: flex;
-        justify-content: space-between;
-        width: 30%;
-        span{
-            font-weight: 500;
-            letter-spacing: 0.02em;
-            font-size: .6875rem;
-        }
-    }
-    .sec-2{
-        width: 30%;
-        margin-right: 13%;
-        display: flex;
-        justify-content: space-between;
-        .sec-2-1{
-            span{
-            padding-right: 30px;
-            }
-        }
-        .sec-2-2{
-            display: flex;
-            justify-content: space-between;
-            width: 25%;
-            padding-right: 25px;
-            color: #767676;
-        }
-    }
-}
+// .promo{
+//     display: flex;
+//     justify-content: space-between;
+//     background-color: rgb(245,245,245);
+//     padding-top: .75rem;
+//     padding-bottom: .75rem;
+//     .sec-1{
+//         margin-left: 13%;
+//         display: flex;
+//         justify-content: space-between;
+//         width: 30%;
+//         span{
+//             font-weight: 500;
+//             letter-spacing: 0.02em;
+//             font-size: .6875rem;
+//         }
+//     }
+//     .sec-2{
+//         width: 30%;
+//         margin-right: 13%;
+//         display: flex;
+//         justify-content: space-between;
+//         .sec-2-1{
+//             span{
+//             padding-right: 30px;
+//             }
+//         }
+//         .sec-2-2{
+//             display: flex;
+//             justify-content: space-between;
+//             width: 25%;
+//             padding-right: 25px;
+//             color: #767676;
+//         }
+//     }
+// }
 .main-details{
     margin-left: 13%;
     margin-right: 13%;
@@ -236,7 +236,7 @@ header i{
         }
         a{
             color: inherit;
-            // text-decoration: underline !important;
+            text-decoration: underline !important;
         }
     }
     .share{
@@ -280,6 +280,9 @@ header i{
         color: #1f1f1f;
         &:hover
         {
+            color: #fd7e14;
+        }
+        &:checked{
             color: #fd7e14;
         }
        
@@ -327,8 +330,8 @@ header i{
             background-color: #fff;
             color: #1f1f1f;
             position: absolute;
-            margin-top: 20px;
-            margin-left: -253px;
+            margin-top: -258px;
+            // margin-left: -298px;
         }
         .item-info{
             margin-top: 30px;
@@ -344,4 +347,22 @@ header i{
             }
         }
     }
+}
+.btn {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #74777d;
+    background-color: transparent;
+    outline: none;
+  }  
+  .btn:hover {
+    color: #282a2e;
+}
+  
+.active, .active:hover {
+    // color: #1b81f5;
 }

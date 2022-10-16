@@ -1,4 +1,4 @@
-import React from 'react'
+// import React,{useState} from 'react'
 import Promo from '../../components/Promo/Promo'
 import Head from '../../components/Header/Head'
 import Discount from '../../components/Discount'
@@ -11,6 +11,7 @@ import Feedback from '../../components/Feedback/Feedback'
 import Company from '../../components/Company'
 import Footer from '../../components/Footer/Footer'
 const Home = () => {
+  // const [isShowCart, setIsShowCart] = useState(false);
   return (
     <div className="Home">
       <Promo/>

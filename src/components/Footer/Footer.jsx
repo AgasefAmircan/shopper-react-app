@@ -25,7 +25,7 @@ const Footer = () => {
                 <button type="submit" className="btn bg-gray-500 text-white" style={{"marginLeft":'15px','background':'#525252'}}>Subscribe</button>
             </div>
         </div>
-        <div className="flex  py-16 justify-between  mr-[13%] ml-[13%]">
+        <div className="flex categorydeanchor py-16 justify-between  mr-[13%] ml-[13%]">
            <div >
             <h4 className="text-white mb-6 text-3xl font-medium text-start">Shopper.</h4>
             <div className=' flex text-gray-400 text-2xl'>

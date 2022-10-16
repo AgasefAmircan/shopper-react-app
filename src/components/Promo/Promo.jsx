@@ -1,7 +1,7 @@
 import React from "react";
 import truck from '../../asset/images/truck.svg'
 import usa from '../../asset/images/usa.svg';
-import canada from  '../../asset/images/germany.svg';
+import canada from  '../../asset/images/canada.svg';
 import germany from '../../asset/images/germany.svg'
 import './Promo.css'
 import { useState } from "react";
@@ -48,26 +48,26 @@ const Promo = () => {
               <p
                 className={` ${
                   !chev ? "block" : "hidden"
-                } ml-3 font-mono text-sm flex pt-2 pb-2`}
+                } ml-3 font-mono text-sm flex pt-2 pb-2 mb-0`}
               >
                 {" "}
-                <img src={usa} alt="" className="pr-2" /> United States
+                <img src={usa} alt="" className="pr-2 object-none" /> United States
               </p>
               <p
                 className={` ${
                   !chev ? "block" : "hidden"
-                } ml-3 font-mono text-sm flex pt-2 pb-2`}
+                } ml-3 font-mono text-sm flex pt-2 pb-2 mb-0`}
               >
                 {" "}
-                <img src={canada} alt="" className="pr-2" /> Canada
+                <img src={canada} alt="" className="pr-2 object-none" /> Canada
               </p>
               <p
                 className={` ${
                   !chev ? "block" : "hidden"
-                } ml-3 font-mono text-sm flex pt-2 pb-2`}
+                } ml-3 font-mono text-sm flex pt-2 pb-2 mb-0`}
               >
                 {" "}
-                <img src={germany} alt="" className="pr-2" /> Germany
+                <img src={germany} alt="" className="pr-2 object-none" /> Germany
               </p>
             </span>
           </span>

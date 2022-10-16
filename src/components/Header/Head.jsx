@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
-// import {Link} from "react-router-dom";
-// import product from "../Products/Product";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { useSelector } from "react-redux";
 import "../Header/Header.css";
+// import Cart from "../Cart/Cart";
 import {
   FaHeart,
   FaSearch,
@@ -16,30 +16,10 @@ import {
 } from "react-icons/fa";
 
 const Head = () => {
+  const state=useSelector((state)=>state.handleCart)
   const [nav, setNav] = useState(true);
-  // const [show,setShow]=useState(false);
-  // const handleShow=()=> setShow(true)
-  // const handleClose=()=> setShow(false)
   return (
     <div className="header">
-      {/* <Modal show={show} onHide={handleClose} className="-mt-[400%] block absolute mt-2 ml-[75%] "  >
-        <div className="modal">
-          <div className="">Your Cart(2)
-          <Button onClick={handleClose}>
-            <FaTimes/>
-          </Button>
-          </div>
-        </div>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button className="bg-" onClick={handleClose}>
-           <a href="/checkout"> Continue to Ckeckout</a>
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            View Cart
-          </Button>
-        </Modal.Footer>
-      </Modal> */}
       <div className=" flex justify-between pt-6 pb-6">
         <div className="logo">
           <a href="/home" className="text-3xl text-black">
@@ -80,11 +60,29 @@ const Head = () => {
           </a>
         </ul>
         <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
-         <FontAwesomeIcon icon={faLinkedin}  />
+          <FontAwesomeIcon icon={faLinkedin} />
           <FaSearch className=" text-gray-700 rounded border-spacing-4" />
-         <a href="/account"> <FaUser className="text-gray-700"  path="/account"/></a>
-         <a href="/account"><FaHeart className="text-gray-700"  path="/account"/> </a>
-          <FaShoppingCart className="text-gray-700" style={{ stroke: "black", 'strokeWidth': "1",background:'#fff'}}  />
+          <a href="/account">
+            {" "}
+            <FaUser className="text-gray-700" path="/account" />
+          </a>
+          <a href="/account">
+            <FaHeart className="text-gray-700" path="/account" />{" "}
+          </a>
+          <a href="/cart">
+          <button className="relative flex justify-center items-center">
+            {" "}
+            <FaShoppingCart
+              className="text-gray-700"
+              style={{ stroke: "black", strokeWidth: "1", background: "#fff" }}
+            /><p className="text-white bg-orange-400 rounded-full px-1 text-sm">{state.length} </p> 
+            {/* {cart.length > 0 && (
+              <span className="bg-blue-700 text-white w-5 h-5 rounded-full absolute -top-4 left-2 text-center leading-5 ">
+                {cart.length}
+              </span>
+            )} */}
+          </button>
+          </a>
         </div>
       </div>
     </div>

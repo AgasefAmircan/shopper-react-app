@@ -63,7 +63,9 @@
 	  --bs-body-color: #1f1f1f;
 	  --bs-body-bg: #fff;
   }
-  
+  a{
+	text-decoration: none !important;
+  }
   body {
 	background-color: var(--bs-body-bg);
 	color: var(--bs-body-color);
@@ -194,7 +196,7 @@
   }
   
   @media (min-width: 992px){
-  .container {
+	.py-11 .container {
 	  max-width: 960px;
 	}
   }
