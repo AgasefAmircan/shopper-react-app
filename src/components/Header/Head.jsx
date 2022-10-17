@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { useSelector } from "react-redux";
@@ -22,9 +23,9 @@ const Head = () => {
     <div className="header">
       <div className=" flex justify-between pt-6 pb-6">
         <div className="logo">
-          <a href="/home" className="text-3xl text-black">
+          <Link to="/home" className="text-3xl text-black">
             Shopper
-          </a>
+          </Link>
         </div>
 
         <button
@@ -40,39 +41,41 @@ const Head = () => {
               : "hidden"
           }`}
         >
-          <a href="/home">
+          <Link to="/home">
             <li className="text-black">Home</li>
-          </a>
-          <a href="/category">
+          </Link>
+          <Link to="/category">
             <li className="text-black">Catalog</li>
-          </a>
-          <a href="/product">
+          </Link>
+          <Link to="/product">
             <li className="text-black">Shops </li>
-          </a>
-          <a href="/about">
+          </Link>
+          <Link to="/about">
             <li className="text-black">About</li>
-          </a>
-          <a href="contact">
+          </Link>
+          <Link to="contact">
             <li className="text-black">Contact</li>
-          </a>
-          <a href="/faq">
+          </Link>
+          <Link to="/faq">
             <li className="text-black">FAQ</li>
-          </a>
+          </Link>
         </ul>
         <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
           <FontAwesomeIcon icon={faLinkedin} />
           <FaSearch className=" text-gray-700 rounded border-spacing-4" />
-          <a href="/account">
+          <Link to="/myaccount/personalinfo">
             {" "}
-            <FaUser className="text-gray-700" path="/account" />
-          </a>
-          <a href="/account">
-            <FaHeart className="text-gray-700" path="/account" />{" "}
-          </a>
-          <a href="/cart">
+            <FaUser className="text-gray-700" path="/myaccount/personalinfo
+            " />
+          </Link>
+          <Link to="/myaccount/wishlist">
+            <FaHeart className="text-gray-700" path="/myaccount/wishlist" />{" "}
+          </Link>
+          <Link to="/cart">
           <button className="relative flex justify-center items-center">
             {" "}
             <FaShoppingCart
+
               className="text-gray-700"
               style={{ stroke: "black", strokeWidth: "1", background: "#fff" }}
             /><p className="text-white bg-orange-400 rounded-full px-1 text-sm">{state.length} </p> 
@@ -82,7 +85,7 @@ const Head = () => {
               </span>
             )} */}
           </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

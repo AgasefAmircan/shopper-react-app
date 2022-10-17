@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import Skeleton from "react-loading-skeleton";
+import { Link } from "react-router-dom";
 import "./TopSellers.css";
 const TopSellers = () => {
   const [toggle, setToggle] = useState(0);
@@ -48,28 +49,28 @@ const TopSellers = () => {
           return (
             <>
               <div className="item item-1 hover:bg-slate-200" key={product.id} id={product.id}>
-                <a href={`/item/${product.id}`}>
+                <Link to={`/item/${product.id}`}>
                   {" "}
                   <img
                     src={product.image}
                     className="hover:scale-y-90 hover:scale-x-90 transition-all ease-in duration-300"
                     alt=""
                   />{" "}
-                </a>
+                </Link>
                 <span className="badgeintop">New</span>
                 <div className="item-info">
-                  <a
-                    href={`/item/${product.id}`}
+                  <Link
+                    to={`/item/${product.id}`}
                     className="hover:bg-slate-300"
                   >
                     {product.category}
-                  </a>
+                  </Link>
                   <b>
-                    <a href="/item">
+                    <Link to="/item">
                       <h5 className="fw-bold hover:bg-slate-400 ">
                         {product.title}
                       </h5>
-                    </a>
+                    </Link>
                   </b>
                   <span className="price hover:bg-slate-300 cursor-pointer flex justify-between">
                     {product.price} $

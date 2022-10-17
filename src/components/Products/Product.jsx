@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import { useSelector,useDispatch } from "react-redux";
 import { addCart } from "../../redux/action";
 import Skeleton from "react-loading-skeleton";
@@ -150,7 +150,7 @@ const Product = () => {
               </div>
   
               <div className="sticky top-0">
-                  <a href="/category" className="rounded-full border border-blue-600 bg-gray-100 px-3 py-0.5 text-xs font-medium tracking-wide text-blue-600">{product.category}</a>
+                  <Link to="/category" className="rounded-full border border-blue-600 bg-gray-100 px-3 py-0.5 text-xs font-medium tracking-wide text-blue-600">{product.category}</Link>
   
                 <div className="mt-8 flex justify-between">
                   <div className="max-w-[35ch]">
@@ -216,10 +216,7 @@ const Product = () => {
                     <div>
                       <div className="prose max-w-none group-open:hidden">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Ipsa veniam dicta beatae eos ex error culpa delectus rem
-                          tenetur, architecto quam nesciunt, dolor veritatis nisi
-                          minus inventore, rerum at recusandae?
+                          {product.description}
                         </p>
                       </div>
   
@@ -231,17 +228,7 @@ const Product = () => {
   
                   <div className="prose max-w-none pb-6">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ipsa veniam dicta beatae eos ex error culpa delectus rem
-                      tenetur, architecto quam nesciunt, dolor veritatis nisi
-                      minus inventore, rerum at recusandae?
-                    </p>
-  
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Placeat nam sapiente nobis ea veritatis error consequatur
-                      nisi exercitationem iure laudantium culpa, animi temporibus
-                      non! Maxime et quisquam amet. A, deserunt!
+                     {product.description}
                     </p>
                   </div>
                 </details>
@@ -406,20 +393,20 @@ const Product = () => {
             </div>
           </div>
           <div className="nav nav-tabs nav-overflow justify-content-start justify-content-md-center border-bottom">
-            <a
+            <Link
               className="nav-link"
               data-bs-toggle="tab"
-              href="#descriptionTab"
+              to="#descriptionTab"
               active
             >
               Description
-            </a>
-            <a className="nav-link" data-bs-toggle="tab" href="#sizeTab">
+            </Link>
+            <Link className="nav-link" data-bs-toggle="tab" to="#sizeTab">
               Size & Fit
-            </a>
-            <a className="nav-link" data-bs-toggle="tab" href="#shippingTab">
+            </Link>
+            <Link className="nav-link" data-bs-toggle="tab" to="#shippingTab">
               Shipping & Return
-            </a>
+            </Link>
           </div>
           <div className="tab-content max-w-6xl mx-auto px-[13%]">
             <div className="tab-pane fade show active" id="descriptionTab">
@@ -516,13 +503,13 @@ const Product = () => {
                           alt="..."
                           className="img-fluid object-contain"
                         />
-                        <a
+                        <Link
                           className="text-reset text-decoration-underline ms-3"
                           data-bs-toggle="modal"
-                          href="#modalSizeChart"
+                          to="#modalSizeChart"
                         >
                           Size chart
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -573,9 +560,9 @@ const Product = () => {
                   {/* Caption --> */}
                   <p className="mb-0 text-gray-500">
                     May, life blessed night so creature likeness their, for.{" "}
-                    <a className="text-body text-decoration-underline" href="#!">
+                    <Link className="text-body text-decoration-underline" to="#!">
                       Find out more
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -592,7 +579,7 @@ const Product = () => {
               />
               <span className="badge">New</span>
               <div className="item-info">
-                <a href="#shoes"> Shoes</a>
+                <Link to="#shoes"> Shoes</Link>
                 <b>
                   <h5 className="fw-bold">Leather mid-heel Sandals</h5>
                 </b>
@@ -606,7 +593,7 @@ const Product = () => {
               />
               <span className="badge">New</span>
               <div className="item-info">
-                <a href="#shoes"> Shoes</a>
+                <Link to="#shoes"> Shoes</Link>
                 <b>
                   <h5 className="fw-bold">Leather mid-heel Sandals</h5>
                 </b>
@@ -620,7 +607,7 @@ const Product = () => {
               />
               <span className="badge">New</span>
               <div className="item-info">
-                <a href="#shoes"> Shoes</a>
+                <Link to="#shoes"> Shoes</Link>
                 <b>
                   <h5 className="fw-bold">Leather mid-heel Sandals</h5>
                 </b>
@@ -634,7 +621,7 @@ const Product = () => {
               />
               <span className="badge">New</span>
               <div className="item-info">
-                <a href="#shoes"> Shoes</a>
+                <Link to="#shoes"> Shoes</Link>
                 <b>
                   <h5 className="fw-bold">Leather mid-heel Sandals</h5>
                 </b>
@@ -865,7 +852,7 @@ const Product = () => {
                           gap: "6px",
                         }}
                       >
-                        <AiOutlineLike />
+                        <aiOutlineLike />
                         <span>{likes}</span>
                       </button>
                       <button
@@ -879,7 +866,7 @@ const Product = () => {
                           gap: "6px",
                         }}
                       >
-                        <AiOutlineDislike />
+                        <aiOutlineDislike />
                         <span>{dislikes}</span>
                       </button>
                     </div>
@@ -890,9 +877,9 @@ const Product = () => {
                   </div>
                   <div className="col-auto">
                     {/* <!-- Button --> */}
-                    <a className="btn btn-xs btn-outline-border border" href="#!">
+                    <Link className="btn btn-xs btn-outline-border border" to="#!">
                       Comment
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1055,7 +1042,7 @@ const Product = () => {
                             gap: "6px",
                           }}
                         >
-                          <AiOutlineLike />
+                          <aiOutlineLike />
                           <span>{likes}</span>
                         </button>
                         <button
@@ -1069,7 +1056,7 @@ const Product = () => {
                             gap: "6px",
                           }}
                         >
-                          <AiOutlineDislike />
+                          <aiOutlineDislike />
                           <span>{dislikes}</span>
                         </button>
                       </div>
@@ -1081,9 +1068,9 @@ const Product = () => {
                   </div>
                   <div className="col-auto">
                     {/* <!-- Button --> */}
-                    <a className="btn btn-xs btn-outline-border border" href="#!">
+                    <Link className="btn btn-xs btn-outline-border border" to="#!">
                       Comment
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1092,7 +1079,7 @@ const Product = () => {
           <nav className="d-flex justify-content-center mt-9 mb-14">
             <ul className="pagination pagination-sm text-gray-400">
               <li className="page-item">
-                <a className="page-link page-link-arrow" href="#">
+                <Link className="page-link page-link-arrow" to="#">
                   <svg
                     className="svg-inline--fa fa-caret-left"
                     aria-hidden="true"
@@ -1109,25 +1096,25 @@ const Product = () => {
                       d="M137.4 406.6l-128-127.1C3.125 272.4 0 264.2 0 255.1s3.125-16.38 9.375-22.63l128-127.1c9.156-9.156 22.91-11.9 34.88-6.943S192 115.1 192 128v255.1c0 12.94-7.781 24.62-19.75 29.58S146.5 415.8 137.4 406.6z"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </li>
               <li className="page-item active">
-                <a className="page-link" href="#">
+                <Link className="page-link" to="#">
                   1
-                </a>
+                </Link>
               </li>
               <li className="page-item">
-                <a className="page-link hover:text-orange-500" href="#">
+                <Link className="page-link hover:text-orange-500" to="#">
                   2
-                </a>
+                </Link>
               </li>
               <li className="page-item">
-                <a className="page-link hover:text-orange-500" href="#">
+                <Link className="page-link hover:text-orange-500" to="#">
                   3
-                </a>
+                </Link>
               </li>
               <li className="page-item">
-                <a className="page-link page-link-arrow" href="#">
+                <Link className="page-link page-link-arrow" to="#">
                   <svg
                     className="svg-inline--fa fa-caret-right"
                     aria-hidden="true"
@@ -1144,7 +1131,7 @@ const Product = () => {
                       d="M118.6 105.4l128 127.1C252.9 239.6 256 247.8 256 255.1s-3.125 16.38-9.375 22.63l-128 127.1c-9.156 9.156-22.91 11.9-34.88 6.943S64 396.9 64 383.1V128c0-12.94 7.781-24.62 19.75-29.58S109.5 96.23 118.6 105.4z"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -1156,9 +1143,9 @@ const Product = () => {
       <section>
         <hr />
         <div className="flex ml-[13%] items-center text-center gap-2">
-        <a href="/home">Home</a>
+        <Link to="/home">Home</Link>
         <FaChevronRight className="" style={{color:'#bababa'}}/>
-        <a href="/category">{product.category}</a>
+        <Link to="/category">{product.category}</Link>
         </div>
         {loading ? <Loading /> : <ShowProducts />}
       </section>
