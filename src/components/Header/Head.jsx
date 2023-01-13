@@ -1,11 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import {Link} from 'react-router-dom'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { useSelector } from "react-redux";
 import "../Header/Header.css";
-// import Cart from "../Cart/Cart";
 import {
   FaHeart,
   FaSearch,
@@ -13,7 +10,6 @@ import {
   FaShoppingCart,
   FaBars,
   FaTimes,
-  // FaLinkedin,
 } from "react-icons/fa";
 
 const Head = () => {
@@ -61,7 +57,6 @@ const Head = () => {
           </Link>
         </ul>
         <div className={`icons h-9 flex ${!nav ? "block" : "hidden"} `}>
-          <FontAwesomeIcon icon={faLinkedin} />
           <FaSearch className=" text-gray-700 rounded border-spacing-4" />
           <Link to="/myaccount/personalinfo">
             {" "}

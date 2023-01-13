@@ -75,7 +75,7 @@ const Footer = () => {
         <hr className='' style={{'borderColor':'#484848'}} />
         <div className=' flex justify-between py-6  mr-[11%] ml-[13%] text-start text-gray-500 font-medium  text-lg'>
             <p className='
-            text-muted'>© 2022 All rights reserved. Designed by IATC Team.</p>
+            text-muted'>© 2022 All rights reserved</p>
             <div className="flex gap-2">
               <a href="#"><img src={MasterCard} alt="" /></a>
               <a href="#"><img src={Visa} alt="" /></a>

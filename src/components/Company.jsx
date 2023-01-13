@@ -14,7 +14,7 @@ const Company = () => {
           className="w-40 h-40"
           src="https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-16.jpg"
           alt=""
-        />
+        /> 
         <img
           className="w-40 h-40"
           src="	https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-17.jpg"

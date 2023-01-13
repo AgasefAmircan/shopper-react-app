@@ -3,14 +3,10 @@ import React from 'react'
 function Pulsayan() {
   return (
     <div className="costrow">
-          {" "}
           <div className="Total">
             <div className="subtotal">
               Subtotal
               <p>
-                {/* {selproducts.reduce((sum, object) => {
-                  return sum + object.price;
-                }, 0)} */}
                 {'price'}$
               </p>
             </div>

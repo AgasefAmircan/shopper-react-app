@@ -11,13 +11,12 @@ import Feedback from '../../components/Feedback/Feedback'
 import Company from '../../components/Company'
 import Footer from '../../components/Footer/Footer'
 const Home = () => {
-  // const [isShowCart, setIsShowCart] = useState(false);
   return (
     <div className="Home">
       <Promo/>
       <Head/>
       <Discount/>
-      <CardSlider/>
+      <CardSlider/> 
       <Info/>
       <Offer/>
       <TopSellers/>

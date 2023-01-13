@@ -56,7 +56,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -95,7 +95,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -135,7 +135,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -175,7 +175,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -229,7 +229,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -268,7 +268,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -308,7 +308,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -348,7 +348,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -402,7 +402,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -441,7 +441,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank" >
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -481,7 +481,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022
@@ -521,7 +521,7 @@ const Feedback = () => {
               midst night wherein.
             </p>
             <p className="text-gray-500 mt-4 text-start">
-              <a href="linkedin.com/in/agasefamircan">
+              <a href="https://linkedin.com/in/agasefamircan" target="_blank">
                 <b> Agasef Amircan</b>
               </a>{" "}
               , 09 sep 2022

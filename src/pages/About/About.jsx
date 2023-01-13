@@ -18,7 +18,7 @@ const About = () => {
       <Promo />
       <Head/>
       <ImgCover />
-      <OurStory />
+      <OurStory /> 
       <Fashion />
       <WhoWeAre />
       <Section5 />
