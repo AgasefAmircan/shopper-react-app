@@ -9,7 +9,6 @@
     margin-top: -2rem;
   }
 }
-
 @media screen and (max-width: 1100px) {
   .desktop {
     display: none;
@@ -21,7 +20,6 @@
     margin-top: -3rem;
   }
 }
-
 @media screen and (max-width: 800px) {
   .desktop {
     display: none;
@@ -37,7 +35,7 @@
     height: 470px;
   }
 }
-
 img {
-  object-fit: cover;
-}
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=CardSlider.css.map */

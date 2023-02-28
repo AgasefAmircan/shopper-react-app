@@ -7,16 +7,13 @@ body {
   margin-right: 14.6%;
   margin-left: 13%;
 }
-
 .header ul {
   justify-content: center;
   align-items: center;
 }
-
 .header ul li {
   padding-right: 32px;
 }
-
 .header .icons {
   justify-content: center;
   align-items: center;
@@ -41,7 +38,7 @@ body {
   .icons {
     margin-top: 340px;
     margin-right: 820px;
-    color: #1d0707;
+    color: rgb(29, 7, 7);
   }
   .closes {
     display: flex;
@@ -51,7 +48,6 @@ body {
     align-items: center;
   }
 }
-
 @media screen and (min-width: 1300px) {
   .navLinks {
     display: flex;
@@ -59,4 +55,4 @@ body {
   .icons {
     display: flex;
   }
-}
+}/*# sourceMappingURL=Header.css.map */

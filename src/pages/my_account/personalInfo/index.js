@@ -55,10 +55,9 @@ function PersonalInfo() {
                     <Input size="large" placeholder="First Name*" />
                 </Form.Item>
                 <Form.Item
-                    // style={{display:"flex",flexDirection:"column",alignItems}}
                     label="Last Name"
                     name="lastname"
-                    initialValue={"Goylerov"}
+                    initialValue={"Amircanov"}
                     style={{ width: "45%" }}
                     wrapperCol={{ sm: { span: 22, offset: 0 } }}
                     rules={[
@@ -114,7 +113,7 @@ function PersonalInfo() {
 
                 <Row>
                     <Form.Item
-                        initialValue={31}
+                        initialValue={15}
                         style={{ width: "113px", marginRight:"10px" }}
                         name="day"
                         rules={[
@@ -131,7 +130,7 @@ function PersonalInfo() {
 
                     </Form.Item>
                     <Form.Item
-                        initialValue={"Marth"}
+                        initialValue={"August"}
                         name={"month"}
                         style={{ width: "113px",marginRight:"10px" }}
                         rules={[
@@ -147,7 +146,7 @@ function PersonalInfo() {
                         </Select>
 
                     </Form.Item>
-                    <Form.Item initialValue={2004}
+                    <Form.Item initialValue={2002}
                         name={"year"}
                         style={{ width: "113px" }}
                         rules={[
