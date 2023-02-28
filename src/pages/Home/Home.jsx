@@ -9,6 +9,8 @@ import Countdown from "../../components/Countdown";
 import Feedback from "../../components/Feedback/Feedback";
 import Company from "../../components/Company";
 import Footer from "../../components/Footer/Footer";
+import React  from 'react';
+
 const Home = () => {
   return (
     <div className="Home">

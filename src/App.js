@@ -18,6 +18,8 @@ import PaymentIndent from "./pages/checkout/checkoutPage/PaymentIndent";
 import Login from "./pages/user/Login";
 import Register from "./pages/user/register";
 import Error from "./pages/Error/Error";
+import React, { Component }  from 'react';
+
 // import Head from "./components/Header/Head";
 // import Cart from "./components/Cart/Cart";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

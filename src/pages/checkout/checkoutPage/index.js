@@ -1,4 +1,4 @@
-// import React, { useState, useEffect } from "react";
+import React, { Component }  from 'react';
 import AddAddressForm from "../../../components/AddAddressForm/addAddressForm";
 import Pulsayan from "../../../components/PulSayan/pulSayan";
 import Form from "antd/lib/form/Form";
